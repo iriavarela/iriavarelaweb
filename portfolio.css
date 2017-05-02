@@ -1,0 +1,26 @@
+
+.tags a{
+  margin-right:5px;
+  color:black;
+  cursor:pointer;
+}
+
+.menuTags {
+  font-size:20px;
+}
+.menuTags .fa {
+  cursor:pointer;
+}
+.menuTags a {
+  font-size:20px;
+  margin-right:10px;
+}
+.menuTags a.seleccionado {
+  font-weight:bold;
+}
+
+.proxecto .titulo {
+  font-size:15px;
+  font-weight:bold;
+
+}
