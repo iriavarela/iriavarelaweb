@@ -3,8 +3,8 @@ var tagList = false;
 $( document ).ready(function() {
 
   tagList = capturaTags();
-  $('.menuTags').html( tagList );
-  $('.menuTags').append( '<i onclick="filtraProxecto(\'borrar\')" style="display:none;" class="borrarFiltros fa fa-times" aria-hidden="true"></i>' );
+  $('.menuTagsContent').html( tagList );
+  $('.menuTagsContent').append( '<i onclick="filtraProxecto(\'borrar\')" style="display:none;" class="borrarFiltros fa fa-times" aria-hidden="true"></i>' );
 ;
   $('.tags a').click( function(ev){
     filtraProxecto($(ev.target).text());
@@ -88,10 +88,10 @@ function filaHTML( interior ) {
 
 function setFiltroSeleccionado( filtro ) {
 
-  $('.menuTags a').removeClass('seleccionado');
+  $('.menuTagsContent a').removeClass('seleccionado');
   if(filtro != false) {
 
-    $('.menuTags a').each( function(i,e){
+    $('.menuTagsContent a').each( function(i,e){
       if($(e).text() == filtro) {
         $(e).addClass('seleccionado')
       }
