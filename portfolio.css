@@ -8,12 +8,20 @@
   margin-bottom:20px;
 }
 
+.row .proxecto a {
+  text-decoration:none;
+  color:black;
+}
+
 .tags a{
   margin-right:5px;
   color:black;
   cursor:pointer;
+  
 }
-
+.tags a:hover{
+  text-decoration:underlined;
+}
 .menuTags {
   font-size:20px;
 }
