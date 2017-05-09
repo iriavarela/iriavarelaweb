@@ -79,7 +79,7 @@ function filtraProxecto(tag) {
 
 
 function colHTML( interior ) {
-  return '<div class="proxecto col-md-3 col-xs-6">' + interior +'</div>';
+  return '<div class="proxecto col-md-4 col-xs-6">' + interior +'</div>';
 }
 
 function filaHTML( interior ) {
