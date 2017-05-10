@@ -5,10 +5,15 @@ a.linkContacto {
   margin-top:40px;
 }
 
+.header .a {
+  margin-left:5px;
+}
+
 .logo {
   margin-top:50px;
   margin-bottom:70px !important;
 }
+
 .logoMini {
   width:340px;
   margin-left:-30px;
