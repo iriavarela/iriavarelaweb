@@ -10,7 +10,8 @@ a.linkContacto {
   margin-bottom:70px !important;
 }
 .logoMini {
-  width:300px;
+  width:340px;
+  margin-left:-30px;
 }
 
 .row .proxecto {
