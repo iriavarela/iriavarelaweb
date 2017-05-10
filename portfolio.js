@@ -20,6 +20,7 @@ function capturaTags() {
     console.log($(e).text())
     if( $.inArray( $(e).text(), rawTags ) == -1 ) {
       tags.push($(e).clone() );
+      tags.push(' ');
       rawTags.push( $(e).text() )
     }
   });
