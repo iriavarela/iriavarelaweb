@@ -87,7 +87,6 @@ div.imaxe {
     position: relative;
     margin: auto;
     overflow: hidden;
-    width: 540px;
 }
 .imgcontainter img {
     max-width: 100%;
