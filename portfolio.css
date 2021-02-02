@@ -80,3 +80,24 @@ div.imaxe {
   font-weight:bold;
 
 }
+
+
+
+.imgcontainter {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 540px;
+}
+.imgcontainter img {
+    max-width: 100%;
+    transition: all 2s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.imgcontainter:hover img {
+    transform: scale(1.9);
+}
